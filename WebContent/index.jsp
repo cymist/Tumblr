@@ -17,3 +17,4 @@
 <div id="content" class="box2">
   <jsp:include page="${cont}"/>
 </div>
+<div>테스트1</div>
