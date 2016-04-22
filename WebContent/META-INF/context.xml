@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource type="javax.sql.DataSource" 
+		name="jdbc/stitch" 
+		auth="Container"
+		username="root" 
+		url="jdbc:mysql://localhost:3306/stitch"
+		password="1234" 
+		maxIdle="10" 
+		maxActive="30"
+		driverClassName="com.mysql.jdbc.Driver" />
+</Context>
